@@ -1,8 +1,8 @@
 /*
+Color Pallete - 
 #EDF7FD blue-white
 #090B0B near-black
 #84C290 light green
-#408C4C medium green
 #00A7E1 bright blue
 */
 header{
@@ -21,7 +21,7 @@ footer{
     width:100%;
     height: 50px;
 }
-section, article, table{
+section, article{
     background-color: #84C290;
     padding: 10px;
 }
@@ -34,18 +34,29 @@ body{
 }
 .inconsolata{
     font-family: "Inconsolata", monospace;
-    font-optical-sizing: auto;
-    font-weight: weight;
     font-style: normal;
     font-variation-settings:
       "wdth" 100;
   }
-th,td,table,.list-group,.list-group-item{
-    background-color: #EDF7FD;
+th,td,table,.list-group,.list-group-item,.card,.dropdown-menu,.dropdown-item{
+    background-color: #EDF7FD !important;
     border: #090B0B;
+    color: #090B0B;
 }
 a{
     color:#00A7E1;
+}
+.card, iframe{
+    margin: auto;
+}
+iframe{
+    border-radius: 5px;
+}
+.link{
+    width: 8%;
+}
+.link:hover{
+    opacity: 0.6;
 }
 
 

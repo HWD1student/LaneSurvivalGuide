@@ -31,15 +31,17 @@
                                   Home
                                 </a>
                                 <ul class="dropdown-menu">
-                                  <li><a class="dropdown-item" href="schedule.html">Schedule</a></li>
-                                  <li><hr class="dropdown-divider"></li>
-                                  <li><a class="dropdown-item" href="attendance.html">Attendance</a></li>
-                                  <li><hr class="dropdown-divider"></li>
-                                  <li><a class="dropdown-item" href="grad_reqs.html">Graduation Requirements</a></li>
-                                  <li><hr class="dropdown-divider"></li>
-                                  <li><a class="dropdown-item" href="nav_aspen.html">Navigating Aspen</a></li>
-                                  <li><hr class="dropdown-divider"></li>
-                                  <li><a class="dropdown-item" href="tips.html">Tips</a></li>
+                                    <li><a class="dropdown-item" href="index.html">Introduction</a></li>
+                                    <li><hr class="dropdown-divider"></li>
+                                    <li><a class="dropdown-item" href="schedule.html">Schedule</a></li>
+                                    <li><hr class="dropdown-divider"></li>
+                                    <li><a class="dropdown-item" href="attendance.html">Attendance</a></li>
+                                    <li><hr class="dropdown-divider"></li>
+                                    <li><a class="dropdown-item" href="grad_reqs.html">Graduation Requirements</a></li>
+                                    <li><hr class="dropdown-divider"></li>
+                                    <li><a class="dropdown-item" href="nav_aspen.html">Navigating Aspen</a></li>
+                                    <li><hr class="dropdown-divider"></li>
+                                    <li><a class="dropdown-item" href="tips.html">Tips</a></li>
                                 </ul>
                             </li>
                             <li class="nav-item">
@@ -73,42 +75,35 @@
                    most important and most often open. If you want to know the general location of a room, you can 
                    also use the "Find A Room" button in this webpage.
                 </p>
+                <button type="button" class="btn btn-lg btn-dark" onclick="rooms.findRoom()">Find A Room</button>
+                <p id="answer-text">
+                    The room you are looking for is located on the <strong><span id="floor?">____</span></strong> floor,
+                    on the <strong><span id="side?">____</span></strong> side of the building.
+                    It is between stairwells <strong><span id="hall1">____</span></strong> and <strong><span id="hall2">____</span></strong>.
+                    It is <strong><span id="nextOrClosest">____</span></strong> to stairwell <strong><span id="closest?">____</span></strong>.
+                </p>
                 <hr>
                 <div class="row"> <!--photos (thanks!!)-->
-                    <div class="col-md-8">
-                        <div class="row">
-                            <div class="col-sm-6">
-                                <h3>First Floor</h3>
-                                <img src="floor1.png" class="img-fluid img-thumbnail" alt="first floor map">
-                            </div>
-                            <div class="col-sm-6">
-                                <h3>Second Floor</h3>
-                                <img src="floor2.png" class="img-fluid img-thumbnail" alt="second floor map">
-                            </div>
-                            <div class="col-sm-6">
-                                <h3>Third Floor</h3>
-                                <img src="floor3.png" class="img-fluid img-thumbnail" alt="third floor map">
-                            </div>
-                            <div class="col-sm-6">
-                                <h3>Fourth Floor</h3>
-                                <img src="floor4.png" class="img-fluid img-thumbnail" alt="fourth floor map">
-                            </div>
-                        </div>
+                    <div class="col-sm-6">
+                        <h3>First Floor</h3>
+                        <img src="floor1.png" class="img-fluid img-thumbnail" alt="first floor map">
                     </div>
-                                <br>
-                                <button type="button" class="btn btn-lg btn-dark" onclick="rooms.findRoom()">Find A Room</button>
-                                <p id="answer-text">
-                                    The room you are looking for is located on the <strong><span id="floor?">____</span></strong> floor,
-                                    on the <strong><span id="side?">____</span></strong> side of the building.
-                                    It is between stairwells <strong><span id="hall1">____</span></strong> and <strong><span id="hall2">____</span></strong>.
-                                    It is <strong><span id="nextOrClosest">____</span></strong> to stairwell <strong><span id="closest?">____</span></strong>.
-                                </p>
-                            </div>
-                        </div>
+                    <div class="col-sm-6">
+                        <h3>Second Floor</h3>
+                        <img src="floor2.png" class="img-fluid img-thumbnail" alt="second floor map">
+                    </div>
+                    <div class="col-sm-6">
+                         <h3>Third Floor</h3>
+                        <img src="floor3.png" class="img-fluid img-thumbnail" alt="third floor map">
+                    </div>
+                    <div class="col-sm-6">
+                        <h3>Fourth Floor</h3>
+                        <img src="floor4.png" class="img-fluid img-thumbnail" alt="fourth floor map">
                     </div>
                 </div>
-                <div class="row"></div>
+                <br>
             </article>
+            <hr>
             <footer> 
                 <p>x</p>
             </footer>
